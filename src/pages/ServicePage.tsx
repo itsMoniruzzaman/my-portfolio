@@ -79,13 +79,13 @@ const ServicePage = () => {
           </div>
         </div>
       </section>
-      <section className="pb-16">
+      {/* <section className="pb-16">
         <Pricing />
         <br />
         <ThumbPricing />
         <br />
         <SeoPricing />
-      </section>
+      </section> */}
       <section>
         <ChooseMe />
       </section>
