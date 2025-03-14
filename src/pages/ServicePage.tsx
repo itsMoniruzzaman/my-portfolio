@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import "../styles/global.css";
-import Pricing from "@/components/Pricing";
-import ThumbPricing from "@/components/ThumbPricing";
-import SeoPricing from "@/components/SeoPricing";
+// import Pricing from "@/components/Pricing";
+// import ThumbPricing from "@/components/ThumbPricing";
+// import SeoPricing from "@/components/SeoPricing";
 import ChooseMe from "@/components/ChooseMe";
 
 const services = [
