@@ -20,8 +20,8 @@ const CaseStudy = () => {
       videoId: "dcNCLbKmmYk", // Example video ID
     },
     {
-      thumbnail: "https://i.ibb.co.com/Z1h4jGW8/download-3.jpg",
-      videoId: "YSAp05fZYDk", // Another video ID
+      thumbnail: "https://i.ibb.co.com/WvNMnjWg/download-4.jpg",
+      videoId: "LK0O6adlT8g", // Another video ID
     },
   ];
 

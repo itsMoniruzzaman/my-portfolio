@@ -8,19 +8,19 @@ const services = [
     name: "Professional & Top Notch Editing",
     description:
       "My video editing services focus on delivering polished and engaging content that enhances personal branding and business visibility. With seamless transitions, vibrant color grading, 3D camera techniques, motion graphics, and advanced animation when needed.",
-    imageUrl: "https://i.ibb.co.com/XfRy90rs/demo.png",
+    imageUrl: "https://i.ibb.co.com/9mcwNpjx/video.png",
   },
   {
     name: "50M+ Views & 1K+ Projects Done",
     description:
       "I've generated over 10 million views through my video editing work and completed more than 50 projects. Specializing in both long and short-form videos, I focus on crafting engaging and high-quality edits that captivate and hook audiences.",
-    imageUrl: "https://i.ibb.co.com/dscJgkL7/revision.png",
+    imageUrl: "https://i.ibb.co.com/SD0wHXYC/views.png",
   },
   {
     name: "Unlimited Revisions, Pay-As-You-Go & Demo Edit",
     description:
       "Your vision, perfected—unlimited revisions until you're satisfied. Just upload your raw footage, and I’ll handle the rest. Pay-as-you-go for a hassle-free, cost-effective process. Try a demo edit first! ",
-    imageUrl: "https://i.ibb.co.com/SD0wHXYC/views.png",
+    imageUrl: " https://i.ibb.co.com/XfRy90rs/demo.png",
     demo: "Request For Demo",
   },
 ];
