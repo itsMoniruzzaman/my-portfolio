@@ -2,9 +2,10 @@ import "../styles/global.css";
 const Brands = () => {
   const subscribers = [
     {
-      name: "Google",
-      imageUrl: "https://i.ibb.co.com/99qtBDRS/channels4-profile-5-1.webp",
-      subscriber: "49.8k",
+      name: "Sabbir Ahmed",
+      imageUrl:
+        "https://yt3.googleusercontent.com/MpCBw7__kWsoVciMD4UK_X7fvX0Ll5F7euTRVZz99Nb3OhW1qEaziNiheX_IaMl2SG6k6TkTzQ=s160-c-k-c0x00ffffff-no-rj",
+      subscriber: "1M",
     },
     {
       name: "Facebook",

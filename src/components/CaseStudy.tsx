@@ -12,18 +12,16 @@ const CaseStudy = () => {
 
   const videos = [
     {
-      thumbnail: "https://i.ibb.co.com/KcYHdjMg/1715433343890.jpg",
-      videoId: "LK0O6adlT8g", // Only the video ID
+      thumbnail: "https://i.ibb.co.com/9m1GyfBm/download-2.jpg",
+      videoId: "u_j04N4QEiE", // Only the video ID
     },
     {
-      thumbnail:
-        "https://i.ibb.co.com/k682mbS4/design-amazing-youtube-thumbnail-in-2-hours.jpg",
-      videoId: "kXYiU_JCYtU", // Example video ID
+      thumbnail: "https://i.ibb.co.com/rKXKsPQM/download-1.jpg",
+      videoId: "dcNCLbKmmYk", // Example video ID
     },
     {
-      thumbnail:
-        "https://i.ibb.co.com/HfSkW9Gk/creatively-edit-your-youtube-video-with-thumbnail-for-free.webp",
-      videoId: "3JZ_D3ELwOQ", // Another video ID
+      thumbnail: "https://i.ibb.co.com/Z1h4jGW8/download-3.jpg",
+      videoId: "YSAp05fZYDk", // Another video ID
     },
   ];
 
