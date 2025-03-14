@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::-webkit-scrollbar,
+  ::-webkit-scrollbar:hover,
+  ::-webkit-scrollbar:active {
+    width: 6px;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb:hover,
+  ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(45deg, #f71d0a, #ef0961);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-track:hover,
+  ::-webkit-scrollbar-track:active {
+    background-color: #1a0b0a; /* Dark red-black */
+    border-radius: 10px;
+  }
+
+  *,
+  *:hover,
+  *:active,
+  *:focus {
+    scrollbar-width: thin;
+    scrollbar-color: #ef0961 #1a0b0a;
+  }
+
+  /* Force the styles even when the window is focused */
+  html:focus-within {
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar:hover,
+    ::-webkit-scrollbar:active {
+      width: 6px;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-thumb:hover,
+    ::-webkit-scrollbar-thumb:active {
+      background: linear-gradient(45deg, #f71d0a, #ef0961);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-track:hover,
+    ::-webkit-scrollbar-track:active {
+      background-color: #1a0b0a;
+      border-radius: 10px;
+    }
+  }
+  :root {
+    --radius: 0.5rem;
+  }
+}
