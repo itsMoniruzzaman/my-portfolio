@@ -4,6 +4,7 @@ import "../styles/global.css";
 // import ThumbPricing from "@/components/ThumbPricing";
 // import SeoPricing from "@/components/SeoPricing";
 import ChooseMe from "@/components/ChooseMe";
+import { useEffect } from "react";
 
 const services = [
   {
@@ -33,6 +34,9 @@ const services = [
 ];
 
 const ServicePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top on page load
+  }, []);
   return (
     <div className="max-w-7xl mx-auto">
       <section className="py-20 pt-40 px-4 sm:px-8 lg:px-16">

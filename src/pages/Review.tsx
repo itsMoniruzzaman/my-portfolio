@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar } from "@/components/ui/avatar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
@@ -101,6 +101,9 @@ const reviews = [
 
 export default function Review() {
   const [visibleReviews, setVisibleReviews] = useState(6);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top on page load
+  }, []);
 
   return (
     <div className="p-6 md:p-12 pt-40 md:pt-40 max-w-7xl mx-auto ">
