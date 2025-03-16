@@ -13,7 +13,7 @@ export default {
       },
       colors: {},
       animation: {
-        typewriter: "typewriter 3s ease-in-out 1s infinite normal both",
+        typewriter: "typewriter 2s ease-in-out infinite normal both",
       },
       keyframes: {
         typewriter: {
